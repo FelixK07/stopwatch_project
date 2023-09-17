@@ -37,9 +37,9 @@ class _CountdownTimerWidgetState extends State<CountdownTimerWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Countdown Timer'),
-      ),
+      // appBar: AppBar(
+      //   title: Text('Countdown Timer'),
+      // ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

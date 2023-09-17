@@ -79,9 +79,7 @@ class StopWatchState extends State<StopWatch> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(widget.name),
-        ),
+
         body: Column(
           children: <Widget>[
             Expanded(child: buildCounter(context)),
